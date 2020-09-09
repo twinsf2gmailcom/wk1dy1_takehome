@@ -14,3 +14,33 @@ body {
     font-size: 32px;
     fill: #ffffff;
 }
+
+main {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.info_div {
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.ft_div {
+    background-color: rgb(0,29,36);
+    height: 110px;
+    width: 100%;
+    text-align: center;
+}
+
+.ft_text{
+    font-size: 12px;
+    color: #FFFFFF;
+    position: relative;
+   top: 55px;
+  }
+
