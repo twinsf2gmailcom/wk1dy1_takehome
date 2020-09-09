@@ -25,6 +25,10 @@ main {
     padding-bottom: 1%;
 }
 
+p, ul, ol {
+    padding-top: 1%;
+}
+
 h2 {
     padding-top: 2%;
     padding-bottom: 2%;
