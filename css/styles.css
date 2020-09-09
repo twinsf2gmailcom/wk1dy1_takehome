@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    /* Make sure margins are 0 and centered  */
+    font-family: 'Roboto', sans-serif;
+}
+
+.svg_hdr {
+    font-size: 32px;
+    fill: #ffffff;
+}
