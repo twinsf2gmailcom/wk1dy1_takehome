@@ -10,10 +10,18 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.info_div:nth-child(even) {
+    text-align: end;
+  }
+
 .svg_hdr {
     font-size: 32px;
     fill: #ffffff;
 }
+
+header {
+    width: 100%;
+  }
 
 main {
     padding-left: 20%;
@@ -48,3 +56,30 @@ h2 {
    top: 55px;
   }
 
+  @media (max-width: 480px) {
+    header {
+      background-color: yellow;
+    } 
+}
+  
+@media (min-width: 480px) {
+    header {
+      background-color: brown;
+    }
+  }
+  @media (min-width: 768px) {
+    header {
+      background-color: green;
+    }
+  }
+  @media (min-width: 1024px) {
+    header {
+      background-color: blue;
+    }
+  }
+  @media (min-width: 1700px) {
+    header {
+      background-color: greenyellow;
+    }
+  }
+  
